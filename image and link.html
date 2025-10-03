@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krishna Navbar</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      background: url('https://s7ap1.scene7.com/is/image/incredibleindia/vishram-ghat-mathura-uttar-pradesh-1-attr-hero?qlt=82&ts=1726649207339') no-repeat center center/cover;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Navbar */
+    nav {
+      width: 100%;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(4px);
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+
+    nav .logo {
+      font-size: 26px;
+      font-weight: bold;
+      color: #ffe066;
+      text-shadow: 2px 2px 8px black;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 18px;
+      padding: 8px 15px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+      background: #ffe066;
+      color: #000;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    /* Center content */
+    .center-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    .center-content h1 {
+      font-size: 60px;
+      color: #ffe066;
+      text-shadow: 3px 3px 10px #000;
+      margin-bottom: 20px;
+    }
+
+    .center-content p {
+      max-width: 700px;
+      font-size: 20px;
+      color: #fff;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 15px 25px;
+      border-radius: 12px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">✨ Hare Krishna ✨</div>
+    <ul>
+      <li><a href="simple web1.html">Home</a></li>
+      <li><a href="profile card.html">Profile</a></li>
+      <li><a href="registration.html">Registration</a></li>
+      <li><a href="product card.html">Product</a></li>
+      <li><a href="table creation.html">Timming of Temple</a></li>
+    </ul>
+  </nav>
+
+  <!-- Center Heading + Para -->
+  <div class="center-content">
+    <h1>🌸 Hare Krishna 🌸</h1>
+    <p>
+      "In the divine melodies of Krishna’s flute lies the eternal call of love, 
+      peace and devotion. May your heart always dance in the joy of chanting 
+      Hare Krishna, Hare Rama, and find the path to true bliss."
+    </p>
+  </div>
+</body>
+</html>
